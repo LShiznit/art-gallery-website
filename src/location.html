@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <!-- for DESKTOPS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- for TABLETS -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1439px)"
+      href="css/tablet.css"
+    />
+    <!-- for MOBILES -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767px)"
+      href="css/mobile.css"
+    />
+
+    <title>Frontend Mentor | Art gallery website</title>
+  </head>
+  <body id="page-location">
+    <div class="container">
+      <main id="main-location">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/src/assets/desktop/image-map.png"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/src/assets/tablet/image-map.png"
+          />
+          <!-- sizes="437" -->
+          <source
+            media="(min-width: 300px)"
+            srcset="/src/assets/mobile/image-map.png"
+          />
+          <!-- sizes="375" -->
+          <img src="/src/assets/desktop/image-map.png" alt="location map" />
+        </picture>
+
+        <div class="container-main">
+          <!-- BACK BUTTON -->
+          <a href="./index.html">
+            <div class="btn-back">
+              <div class="btn-arrow">
+                <img src="/src/assets/icon-arrow-left.svg" alt="button-back" />
+              </div>
+              <div class="btn-text bold-text">BACK TO HOME</div>
+            </div>
+          </a>
+          <!-- BUTTON END -->
+        </div>
+      </main>
+      <section id="showcase-location">
+        <div class="showcase-flex">
+          <div class="showcase-heading">
+            <h2>OUR LOCATION</h2>
+          </div>
+          <div class="showcase-content">
+            <h3>99 KING STREET</h3>
+            <p>
+              Newport<br />
+              RI 02840<br />
+              United States of America
+            </p>
+            <p>
+              Our newly opened gallery is located near the Edward King House on
+              99 King Street, the Modern Art Gallery is free to all visitors and
+              open seven days a week from 8am to 9pm.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer id="footer-location">
+        <div class="container">
+          <div class="footer-flex">
+            <h3 id="footer-logo">MODERN<br />ART GALLERY</h3>
+            <p id="footer-info">
+              The Modern Art Gallery is free to all visitors and open seven days
+              a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+            </p>
+            <div id="location-socialmedia">
+              <a href="https://www.facebook.com/"
+                ><img src="/src/assets/icon-facebook.svg" alt="facebook"
+              /></a>
+              <a href="https://twitter.com/home"
+                ><img src="/src/assets/icon-twitter.svg" alt="twitter"
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img src="/src/assets/icon-instagram.svg" alt="instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

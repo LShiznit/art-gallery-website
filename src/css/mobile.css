@@ -1,0 +1,229 @@
+.container {
+  width: 100vw;
+  margin: 0;
+}
+/* HEADER */
+body .container .grid-header {
+  /* TOGGLE */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-header .grid-item-1 {
+  background-color: unset;
+  color: #151515;
+  position: unset;
+  height: unset;
+  width: 100%;
+  order: 2;
+  margin-top: calc((100vw + 2rem));
+}
+.grid-header .grid-item-1 h1 {
+  position: unset;
+  width: fit-content;
+  padding: 1rem 3rem;
+  top: unset;
+  left: unset;
+}
+.grid-header .grid-item-2 {
+  order: 1;
+  width: 100%;
+}
+.grid-header .grid-item-2 img {
+  width: 100%;
+}
+.grid-header .grid-item-1 h1:nth-child(2) {
+  display: none;
+}
+.grid-header .grid-item-3 {
+  position: unset;
+  order: 3;
+}
+.grid-header .grid-item-3 .grid-content {
+  position: unset;
+  top: unset;
+  right: unset;
+  width: calc(100vw - 6rem);
+}
+.grid-header .grid-item-3 .grid-content p {
+  width: auto;
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.grid-header .grid-item-3 .grid-content a {
+  padding: 0;
+}
+/* MAIN */
+main .container-main {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+main .container-main .grid-main {
+  /* TOGGLE */
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: unset;
+  grid-template-rows: unset;
+  grid-gap: 2rem;
+  margin-top: 10rem;
+}
+/* content 1 */
+.grid-main-item-1 {
+  order: 2;
+  grid-area: unset;
+  padding: 0 3rem;
+  width: 100%;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+.grid-main-item-1 .main-content h2 {
+  width: 100%;
+}
+.grid-main-item-1 .main-content p {
+  width: 100%;
+  font-size: 22px;
+  line-height: 27px;
+}
+.grid-main-item-2 {
+  grid-area: unset;
+  order: 1;
+  justify-self: unset;
+  padding: 0 3rem;
+}
+/* image bench */
+.grid-main-item-3 {
+  grid-area: unset;
+  order: 3;
+  padding: 0 3rem;
+}
+/* image people */
+.grid-main-item-4 {
+  grid-area: unset;
+  order: 4;
+  padding: 0 3rem;
+}
+.grid-main-item-4 img {
+  height: unset;
+}
+/* content 2 */
+.grid-main-item-5 {
+  grid-area: unset;
+  order: 5;
+  margin-top: unset;
+  margin: 0 3rem;
+}
+.grid-main-item-5 > div {
+  padding-left: unset;
+}
+.grid-main-item-5 .main-content h2 {
+  width: 100%;
+  padding: 2rem 0 0 1rem;
+}
+.grid-main-item-5 .main-content p {
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #151515;
+  margin: 0;
+  padding: 0;
+  height: 336px;
+}
+footer .container {
+  color: #ffffff;
+  height: unset;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 336px;
+  padding: 3rem;
+  justify-content: space-between;
+}
+#footer-logo {
+  width: 100%;
+  margin-right: unset;
+}
+#footer-info {
+  width: 100%;
+  line-height: 25px;
+}
+#footer-socialmedia {
+  margin-left: unset;
+  padding: 0;
+  display: flex;
+  width: 35%;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer-socialmedia > a {
+  justify-self: flex-start;
+}
+
+/* --------------------------------------------------------- */
+/* ---------------- LOCATION PAGE -------------------------- */
+/* --------------------------------------------------------- */
+
+#footer-location .container {
+  background-color: #d5966c;
+  color: #151515;
+  height: 350px;
+}
+#main-location {
+}
+#main-location picture {
+  display: flex;
+  width: 100vw;
+}
+#main-location .btn-back {
+  left: 0;
+}
+#showcase-location .showcase-flex {
+  margin: 0 auto;
+  padding: 7rem 0;
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.showcase-flex .showcase-heading {
+  padding-left: 2rem;
+  width: 100%;
+}
+.showcase-flex .showcase-content {
+  width: 100%;
+  padding: 0 2rem;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.showcase-flex .showcase-content h3 {
+  color: #d5966c;
+}
+.showcase-flex .showcase-content p {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+#location-socialmedia {
+  margin-left: unset;
+  padding: 0;
+  width: 35%;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
