@@ -91,7 +91,7 @@ a {
   filter: invert(9%) sepia(19%) saturate(960%) hue-rotate(338deg)
     brightness(87%) contrast(92%);
 }
-#location-socialmedia:hover {
+#location-socialmedia img:hover {
   color: #ffffff;
   filter: brightness(0) invert(1);
 }
@@ -301,6 +301,8 @@ body {
   padding: 0 2rem;
   display: flex;
   justify-content: space-evenly;
+}
+#location-socialmedia img {
   filter: invert(0%) sepia(26%) saturate(2409%) hue-rotate(159deg)
     brightness(0%) contrast(84%);
 }
